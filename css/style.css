@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/bd/ee/d4/bdeed4ba8ce746e127992f2555f05b21.jpg);
+
+
+
+    
+}
+
+h1{
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+form{
+    background-color: #fafafa;
+    width: 700px;
+    height: 100%;
+    padding: 20rem 5rem;
+    position: absolute;
+    left: 0;
+}
+
+form div{
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+
+}
+
+label, input{
+    font-size: 1.6rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem
+}
+
+.radio-btn {
+    text-align: center;
+}
+
+.radio-btn label{
+    display: inline;
+
+}
+
+.check-btn {
+    text-align: center;
+    padding-inline: 150px;
+}
+
+
+.check-btn label{
+    display: inline;
+}
+
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="ref"]{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #4682B4;
+    border-radius: 4px;
+
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #4682B4;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
