@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-	<head>
-		<title>Exercício - CSS Foundations</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<style type="text/css" id="operaUserStyle"></style>
-	</head>
-	<body>
-		<form action="">
+
+<head>
+	<title>Exercício - CSS Foundations</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<style type="text/css" id="operaUserStyle"></style>
+</head>
+
+<body>
+	<form action="">
 		<h1>Solicite seu Mesh/Item 3D</h1>
-		
+
 		<div>
 			<label for="name">Nome:</label>
 			<input type="text" id="nome" required>
@@ -29,29 +31,47 @@
 		<div>
 			<label>Licença:</label>
 			<div class="radio-btn">
-				<input type="radio" name="licenca" id="basica" required>
-				<label for="basica">Básica</label>
-				<input type="radio" name="licenca" id="extendida" required>
-				<label for ="extendida">Estendida</label>
-				<input type="radio" name="licenca" id="full" required>
-				<label for ="fullperm">Permissão Total</label>
-		</div>
+				<div>
+					<input type="radio" name="licenca" id="basica" required>
+					<label for="basica">Básica</label>
+				</div>
+				
+				<div>
+					<input type="radio" name="licenca" id="extendida" required>
+					<label for="extendida">Estendida</label>
+				</div>
+				
+				<div>
+					<input type="radio" name="licenca" id="full" required>
+					<label for="fullperm">Permissão Total</label>
+				</div>
 
-		<div>
-			<label>Tipo de Arquivo:</label>
-			<div class="check-btn">
-				<input type="checkbox" name="arquivos" value="dae">
-				<label for="dae">.DAE</label>
-				<input type="checkbox" name="arquivos" value="obj">
-				<label for="obj">.OBJ</label>
-				<input type="checkbox" name="arquivos" value="fbx">
-				<label for="fbx">.FBX</label>
 			</div>
 
-		</div>
+			<div>
+				<label>Tipo de Arquivo:</label>
+				
+				<div class="radio-btn">
+					<div>
+						<input type="checkbox" name="arquivos" value="dae">
+						<label for="dae">.dae</label>
+					</div>
+				
+					<div>
+						<input type="checkbox" name="arquivos" value="obj">
+						<label for="obj">.obj</label>
+					</div>
+				
+					<div>
+						<input type="checkbox" name="arquivos" value="fbx">
+						<label for="fbx">.fbx</label>
+					</div>
+				</div>
 
-		<div>
-			<input type="submit" value="Solicitar">
-		</div>
+			</div>
+
+			<div>
+				<input type="submit" value="Solicitar">
+			</div>
 	</form>
-	</body>
+</body>
