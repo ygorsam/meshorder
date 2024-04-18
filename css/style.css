@@ -13,10 +13,6 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url(https://i.pinimg.com/564x/bd/ee/d4/bdeed4ba8ce746e127992f2555f05b21.jpg);
-
-
-
-    
 }
 
 h1{
@@ -24,7 +20,6 @@ h1{
     margin-bottom: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    
 }
 
 form{
@@ -39,7 +34,6 @@ form{
 form div{
     margin-bottom: 2rem;
     font-family: sans-serif;
-
 }
 
 label, input{
@@ -54,7 +48,6 @@ label, input{
 
 .radio-btn label{
     display: inline;
-
 }
 
 .check-btn {
@@ -78,7 +71,6 @@ input[type="text"], input[type="email"], input[type="ref"]{
     padding: 1rem;
     border: 1px solid #4682B4;
     border-radius: 4px;
-
 }
 
 input[type="submit"]{
@@ -88,5 +80,4 @@ input[type="submit"]{
     background-color: #fff;
     cursor: pointer;
     border-radius: 4px;
-
 }
