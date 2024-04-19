@@ -12,6 +12,7 @@
     src: url('./../font/Inter.ttc');
 }
 
+
 body {
     width: 100vw;
     height: 100vh;
@@ -36,6 +37,13 @@ form {
     padding: 20rem 5rem;
     position: absolute;
     left: 0;
+    opacity: 90%;
+}
+
+div img {
+    position: absolute;
+    top: 45px;
+    left: 100px;
 }
 
 form div {
